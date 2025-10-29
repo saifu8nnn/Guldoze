@@ -1,0 +1,30 @@
+{
+  "name": "guldoze-crochet",
+  "version": "1.0.0",
+  "description": "A handmade crochet brand website with full e-commerce functionality",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crochet",
+    "handmade",
+    "ecommerce",
+    "web",
+    "store"
+  ],
+  "author": "Guldoze",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
